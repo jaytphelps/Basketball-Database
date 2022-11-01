@@ -7,7 +7,7 @@ awayteam_players = []
 
 def connect():
     conn = pymysql.connect(host='mysql.clarksonmsda.org', port=3306, user='phelpsjt',
-                                passwd='Mbj909698!', db='phelpsjt_IS437', autocommit=True)
+                                passwd='*******', db='********', autocommit=True)
     cur = conn.cursor(pymysql.cursors.DictCursor)
 
 def close():
